@@ -1,6 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void){
-printf("Hello, C on Linux!\n");
-return 0;
+int main(void) {
+    int width = 10;
+    int height = 10;
+
+    printf("Width: %d\n", width);
+    printf("Height: %d\n", height);
+
+    return 0;
 }
