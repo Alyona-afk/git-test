@@ -12,6 +12,7 @@ int main(void){
 
 printf("Ваш возраст %d\n", age);
 printf("Ваш рост %.2f\n", height);
+printf("Ваш следущий возраст: %d\n", age+1);
 
 return 0;
 }
